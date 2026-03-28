@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ## Model Artifacts
 
 Space Invaders model artifacts are saved under:
-- `ml_foundations/atari_rl/models/`
+- `ml_coursework/atari_rl/models/`
 
 Training outputs:
 - `dqn_space_invaders.keras`
@@ -80,7 +80,7 @@ Playback model resolution priority:
 ## Repository Layout
 
 ```text
-ml_foundations/
+ml_coursework/
   othello/
   atari_rl/
 scripts/
@@ -88,7 +88,7 @@ docs/
 ```
 
 ## Validation
-- `python3 -m compileall ml_foundations scripts`
+- `python3 -m compileall ml_coursework scripts`
 - RL model smoke test and benchmark scripts execute successfully.
 - Othello default match runs end-to-end (headless backend supported).
 

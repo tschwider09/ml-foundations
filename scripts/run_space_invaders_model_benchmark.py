@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from ml_foundations.atari_rl.benchmark_models import main
+from ml_coursework.atari_rl.benchmark_models import main
 
 
 if __name__ == "__main__":

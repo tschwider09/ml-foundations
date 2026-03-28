@@ -22,25 +22,25 @@ Compatibility aliases (same behavior):
 - `scripts/run_rl_model_benchmark.py`
 
 ## Core RL modules
-- `ml_foundations/atari_rl/environment.py`
+- `ml_coursework/atari_rl/environment.py`
   - ALE registration + Atari preprocessing + frame stacking.
-- `ml_foundations/atari_rl/modeling.py`
+- `ml_coursework/atari_rl/modeling.py`
   - DQN CNN architecture and target-network cloning.
-- `ml_foundations/atari_rl/replay.py`
+- `ml_coursework/atari_rl/replay.py`
   - ReplayBuffer, PrioritizedReplayBuffer, FastReplayBuffer.
-- `ml_foundations/atari_rl/training_utils.py`
+- `ml_coursework/atari_rl/training_utils.py`
   - Epsilon-greedy and Double-DQN target computation.
-- `ml_foundations/atari_rl/evaluation.py`
+- `ml_coursework/atari_rl/evaluation.py`
   - Greedy policy evaluation loop.
-- `ml_foundations/atari_rl/space_invaders_dqn.py`
+- `ml_coursework/atari_rl/space_invaders_dqn.py`
   - Main training/evaluation orchestration.
-- `ml_foundations/atari_rl/play_trained_model.py`
+- `ml_coursework/atari_rl/play_trained_model.py`
   - Model loading + gameplay playback.
-- `ml_foundations/atari_rl/model_smoke_test.py`
+- `ml_coursework/atari_rl/model_smoke_test.py`
   - Artifact load/inference validation across saved models.
-- `ml_foundations/atari_rl/benchmark_models.py`
+- `ml_coursework/atari_rl/benchmark_models.py`
   - Multi-model evaluation and best-model promotion.
-- `ml_foundations/atari_rl/saved_models.py`
+- `ml_coursework/atari_rl/saved_models.py`
   - Shared model discovery, loading, and playback path resolution.
 
 ## Trained model path options
@@ -48,8 +48,8 @@ Compatibility aliases (same behavior):
 1. `--model /path/to/model.keras`
 2. `SPACE_INVADERS_MODEL_PATH=/path/to/model.keras`
 3. best model from benchmark results json (if present)
-4. `ml_foundations/atari_rl/models/dqn_space_invaders_best.keras`
-5. `ml_foundations/atari_rl/models/dqn_space_invaders.keras`
+4. `ml_coursework/atari_rl/models/dqn_space_invaders_best.keras`
+5. `ml_coursework/atari_rl/models/dqn_space_invaders.keras`
 6. newest `.keras` model in the models directory
 
 `space_invaders_dqn.py` training saves:

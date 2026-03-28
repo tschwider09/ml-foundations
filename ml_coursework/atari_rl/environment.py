@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 import tempfile
 
-_MPL_CONFIG_DIR = Path(tempfile.gettempdir()) / "ml_foundations_mpl"
+_MPL_CONFIG_DIR = Path(tempfile.gettempdir()) / "ml_coursework_mpl"
 _MPL_CONFIG_DIR.mkdir(parents=True, exist_ok=True)
 os.environ.setdefault("MPLCONFIGDIR", str(_MPL_CONFIG_DIR))
 

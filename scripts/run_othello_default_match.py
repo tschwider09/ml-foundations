@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from ml_foundations.othello.game_runner import run_default_match
+from ml_coursework.othello.game_runner import run_default_match
 
 
 if __name__ == "__main__":
