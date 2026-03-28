@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.py.zip
+.DS_Store
+.venv/
+.mypy_cache/
+.pytest_cache/
+models/*.keras
+ml_foundations/atari_rl/models/*.keras
+ml_foundations/atari_rl/models/*.weights.h5
+ml_foundations/atari_rl/models/model_benchmark_results*.json

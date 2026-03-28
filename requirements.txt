@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pillow
+numba
+gymnasium[atari,accept-rom-license]
+ale-py
+tensorflow
