@@ -1,1 +1,1 @@
-"""ML Foundations: Othello search agents and Atari RL utilities."""
+"""ML Coursework: Othello search agents and Atari RL utilities."""
