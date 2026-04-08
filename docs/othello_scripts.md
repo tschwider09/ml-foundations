@@ -16,7 +16,7 @@
 
 ## Agents
 - `ml_coursework/othello/agents/minimax_baseline.py`
-  - Baseline minimax + alpha-beta pruning.
+  - Baseline heuristic minimax + alpha-beta pruning.
 - `ml_coursework/othello/agents/minimax_numba.py`
   - Numba-accelerated minimax variant.
 - `ml_coursework/othello/agents/minimax_numba_optimized.py`
